@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1097191877427",
+    "project_id": "foodreuseapp-ee632",
+    "storage_bucket": "foodreuseapp-ee632.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097191877427:android:ce090eff9327cbf329ec46",
+        "android_client_info": {
+          "package_name": "com.aarondcosta99.foodreuseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097191877427-0g5iilptjg6d61oh7hfq7apcij6i8l5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_PjhQUVUWjdPyNROvrqfODrCw2Qymbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097191877427-0g5iilptjg6d61oh7hfq7apcij6i8l5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
