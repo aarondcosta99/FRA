@@ -41,16 +41,19 @@ class DonateActivity : AppCompatActivity() {
             {
                 binding.userDetails.error = "Details is required"
             }
-            val donation = hashMapOf(
-                "userName" to userName,
-                "userAddress" to userAddress,
-                "userDetails" to userDetails,
-                "userID" to userID,
-                "time" to FieldValue.serverTimestamp()
-            )
-            db.collection("donations").document().set(donation, SetOptions.merge()).addOnSuccessListener {
-                Toast.makeText(this,"Your submission has been successfully saved into the datbase", Toast.LENGTH_SHORT).show()
+            else{
+                val donation = hashMapOf(
+                    "userName" to userName,
+                    "userAddress" to userAddress,
+                    "userDetails" to userDetails,
+                    "userID" to userID,
+                    "time" to FieldValue.serverTimestamp()
+                )
+                db.collection("donations").document().set(donation, SetOptions.merge()).addOnSuccessListener {
+                    Toast.makeText(this,"Your submission has been successfully saved into the datbase", Toast.LENGTH_SHORT).show()
+                }
             }
+
         }
     }
 }

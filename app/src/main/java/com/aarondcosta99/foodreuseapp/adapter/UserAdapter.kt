@@ -1,10 +1,12 @@
 package com.aarondcosta99.foodreuseapp.adapter
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.aarondcosta99.foodreuseapp.MessageActivity
 import com.aarondcosta99.foodreuseapp.R
 import com.aarondcosta99.foodreuseapp.model.User
 
@@ -18,6 +20,11 @@ class UserAdapter(private val UserList:ArrayList<User>): RecyclerView.Adapter<Us
     override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
         val user:User = UserList[position]
         holder.userName.text = user.userName
+        holder.itemView.setOnClickListener {
+            val intent = Intent(it.context,MessageActivity::class.java)
+            intent.putExtra("userName",user.userID)
+            it.context.startActivity(intent)
+        }
     }
 
     override fun getItemCount(): Int {

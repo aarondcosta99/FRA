@@ -57,7 +57,7 @@ class RegisterActivity : AppCompatActivity() {
                         "userEmail" to userEmail,
                         "userID" to userID
                     )
-                    db.collection("users").document(userID).set(user).addOnCompleteListener { it ->
+                    db.collection("users").document(userID).set(user).addOnCompleteListener {
                         if(it.isSuccessful)
                         {
                             Toast.makeText(this,"User Created. Redirecting you to Home Page",Toast.LENGTH_SHORT).show()

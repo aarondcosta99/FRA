@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Aaron Dcosta/StudioProjects/FRA/app/src/main/res/drawable/background_receiver.xml" value="0.2203125" />
+        <entry key="..\:/Users/Aaron Dcosta/StudioProjects/FRA/app/src/main/res/drawable/background_sender.xml" value="0.2203125" />
+        <entry key="..\:/Users/Aaron Dcosta/StudioProjects/FRA/app/src/main/res/drawable/ic_receive.xml" value="0.2203125" />
+        <entry key="..\:/Users/Aaron Dcosta/StudioProjects/FRA/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Aaron Dcosta/StudioProjects/FRA/app/src/main/res/layout/activity_message.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Aaron Dcosta/StudioProjects/FRA/app/src/main/res/layout/chat_receiver_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Aaron Dcosta/StudioProjects/FRA/app/src/main/res/layout/chat_sender_item.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/drawable/ic_ngo.xml" value="0.21197916666666666" />
         <entry key="app/src/main/res/layout/activity_chat.xml" value="0.19583333333333333" />
         <entry key="app/src/main/res/layout/activity_donate.xml" value="0.19583333333333333" />
